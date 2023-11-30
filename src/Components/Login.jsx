@@ -10,7 +10,9 @@ function Login() {
     setPagetitle('Login')
     if (localStorage.getItem('access_token'))//user is logged in so when user try to navigate using a get url typing it redirect it to the /Add url or add page
     {
+      
       navigate("/");
+
     }
   }, [])
 
